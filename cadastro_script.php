@@ -21,10 +21,10 @@
     $conexao->query($sql);
     $conexao->close();
 
-  
+    echo "Cadastrado com sucesso!";
 
     header("refresh:5;url=home.html");
-    echo "Cadastrado com sucesso!";
+    
 
 ?>
 
